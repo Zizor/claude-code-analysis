@@ -23,6 +23,7 @@ aliases:
 
 - [[authoritative-agent-source-map]]：官方/权威 agent 开发资料来源表和来源分级。
 - [[authoritative-agent-development-guide]]：从官方资料和本地分析提炼出的 agent 开发攻略。
+- [[opencode-vs-claude-code-agent-framework]]：OpenCode 与 Claude Code/Claude Agent SDK 作为 agent 框架的能力和选型差异。
 - [[opencode-agent-platform-patterns]]：OpenCode 通用 agent 的平台化设计模式。
 - [[erun-emu-agent-application]]：这些模式落到 erun/eVision emu agent 后该怎么取舍。
 - [[tool-permission-runtime-patterns]]：工具执行、权限、并发、安全边界。
@@ -52,9 +53,10 @@ Claude Code 的可借鉴点不是“有很多 CLI 接口”，而是把本地 ag
 ## 阅读顺序
 
 1. 先看 [[authoritative-agent-development-guide]]，建立“agent 何时值得做、如何约束”的大框架。
-2. 再看 [[tool-permission-runtime-patterns]] 和 [[memory-context-session-patterns]]，理解 runtime 的硬边界。
-3. 然后看 [[prompt-skill-mcp-patterns]]，确认 prompt、skill、registry、MCP 的职责分工。
-4. 最后看 [[erun-emu-agent-application]]，把这些模式落到 eVision/erun 业务场景。
+2. 再看 [[opencode-vs-claude-code-agent-framework]]，确认框架选型和 adapter 边界。
+3. 接着看 [[tool-permission-runtime-patterns]] 和 [[memory-context-session-patterns]]，理解 runtime 的硬边界。
+4. 然后看 [[prompt-skill-mcp-patterns]]，确认 prompt、skill、registry、MCP 的职责分工。
+5. 最后看 [[erun-emu-agent-application]]，把这些模式落到 eVision/erun 业务场景。
 
 ## 主要来源
 
