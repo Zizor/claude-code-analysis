@@ -116,7 +116,7 @@ Claude Code 的 transcript 是 append-only JSONL。erun-emu 也适合把运行�
 }
 ```
 
-这类状态属于本次 OpenCode 会话和本次任务，不需要落到 `~/.local/share/erun-agent` 做长期持久化。
+这类状态属于本次 OpenCode 会话和本次任务，不需要落到 `~/.local/share/emulator-agent` 做长期持久化。
 
 ## Evidence Report
 
